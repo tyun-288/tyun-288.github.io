@@ -1,0 +1,244 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+[id]::before {
+    content: "";
+   display: block;
+    height: 100px;
+    margin-top: -40px;
+  }
+
+  
+.clear {
+    clear: both;
+}
+header {
+    width: 100%;
+    background-color: rgb(82, 71, 71) ;
+    position: fixed;
+    top: 0;
+    z-index: 15;
+
+}
+
+  
+
+.success {
+    background-image:url(https://www.vc-ryugaku.com/wp-content/uploads/2019/07/ubc-outside2.jpg);
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    padding-bottom: 300px;
+}
+
+.success p {
+    padding-top: 200px;
+    padding-bottom: 10px;
+    font-size: 15px;
+    color: black;
+}
+
+.success h1 {
+    font-size: 40px;
+}
+
+
+.subject {
+    float: left;
+}
+.logo {
+    color: whitesmoke;
+    font-size: 25px;
+    padding: 10px 0 0 10px;
+    font-weight: bold;
+}
+
+.sub-logo {
+    font-size: 13px;
+    font-weight: normal;
+    color: whitesmoke;
+    padding-left: 10px;
+}
+
+
+.header-right {
+    float: right;
+    padding: 40px 30px;
+}
+.header-right a {
+    float: left;
+    color: whitesmoke;
+    padding-left: 10px;
+    display: block;
+    transition: all 0.4s;
+}
+
+.header-right a:hover {
+    color: red;
+    opacity: 0.6;
+}
+
+.main {
+    background-image: url(https://img.freepik.com/premium-vector/abstract-gear-wheel-mechanism-background_41981-299.jpg?semt=ais_hybrid&w=740);
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100px;
+    
+}
+
+.kinoko {
+    position: absolute;
+    top: 150px;
+    right: 20px;
+    width: 150px;
+    height: 170px;
+    z-index: 10;
+}
+.profile-text {
+    width: 60%;
+    font-size: 25px;
+}
+.main h2 {
+    font-size: 25px;
+    color: black;
+}
+
+.main p {
+    font-size: 15px;
+    color: black;
+}
+
+.main img {
+    float: right;
+    height: 150px;
+    width: 150px;
+}
+
+.projects {
+    background-color:antiquewhite;
+}
+
+.projects h2 {
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.item {
+    float: left;
+    border: 10px solid 2px;
+    width: 50%;
+}
+
+.item li {
+    padding-bottom: 10px}
+
+.skill-container h2{
+    font-size: 30px;
+    text-align: center;
+    background-color:antiquewhite;
+}
+
+.skill-container {
+    width: 100%;
+    background-image:url() ;
+    float: left;
+    margin-bottom: 100px;
+}
+
+.skill-set {
+    padding-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.skill {
+    flex: auto;
+    width: 25%;
+    
+    border: 5px solid black;
+    padding: 5px 5px;
+    margin-left: 5px;
+
+}
+
+
+
+.skill ul {
+    width: 70%;
+}
+
+.skill li {
+    text-align: center;
+}
+
+.uni-contents {
+    font-size: 30px;
+    background-image: url(https://engineering.ok.ubc.ca/wp-content/uploads/sites/91/2021/11/EME-external-aerial-1024x416.png);
+    background-size: cover;
+    color: white;
+    opacity: 0.7;
+}
+
+.uni h2{
+    color: red;
+    font-size: 25px;
+
+}
+
+.uni h3 {
+    color: red;
+    font-size: 20px;
+
+}
+
+footer {
+    background-color: grey;
+    color: white;
+    padding-bottom: 100px;
+    height: auto;
+}
+
+.footer-left {
+    float: left;
+    padding-left: 40px;
+}
+
+.footer-left h3{
+    padding-bottom: 20px;
+}
+
+.footer-right {
+    float: right;
+    padding-top: 30px;
+    padding-right: 80px;
+    border-radius: 4px;
+}
+
+.box {
+    
+    margin-top: 10px;
+    display: block;
+    background-color: rgb(236, 233, 224);
+    color: black;
+    box-shadow: 5px 5px black;
+    transition: all 0.4s;
+}
+
+.box:hover {
+    opacity: 0.6;
+    color: red;
+}
+
+.box:active {
+    position: relative;
+    top: 5px;
+    box-shadow: none;
+}
+
+
+
+
+
