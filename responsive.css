@@ -1,0 +1,27 @@
+@media all and (max-width: 1000px){
+
+    
+    .skill-set {
+        flex-wrap: wrap;
+    }
+
+    .skill {
+        width: 45%;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media all and (max-width: 670px){
+    .kinoko {
+        top: 210px;
+    }
+.skill-set {
+    flex-direction: column;
+}
+
+.skill {
+    margin: 10px auto;
+}
+}
